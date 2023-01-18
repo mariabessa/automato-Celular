@@ -9,9 +9,10 @@ int main(){
     scanf("%d", &tam);
     mat = alocarReticulado(tam);
     LeituraReticulado(mat, tam);
-    imprimeReticulado(mat, tam);
+    printf("\nChegou aqq\n");
     evoluirReticulado(mat, tam);
+    imprimeReticulado(mat, tam);
     desalocarReticulado(&mat, tam);
-
+    
     return 0;
 }

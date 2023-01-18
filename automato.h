@@ -1,15 +1,15 @@
 # ifndef tp1_h
 # define tp1_h
 
-int **alocarReticulado();
+int **alocarReticulado(int);
 
-void desalocarReticulado();
+void desalocarReticulado(int***, int);
 
-void LeituraReticulado();
+void LeituraReticulado(int**, int);
 
-int evoluirReticulado();
+void imprimeReticulado(int**, int);
 
-void imprimeReticulado();
+void evoluirReticulado(int**, int);
 
 
 #endif
