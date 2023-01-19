@@ -3,16 +3,14 @@
 
 int main(){
 
-    int tam, **mat;
+    int Tamanho, **Matriz;
 
-    printf("Digite o tamanho da matriz: ");
-    scanf("%d", &tam);
-    mat = alocarReticulado(tam);
-    LeituraReticulado(mat, tam);
-    printf("\nChegou aqq\n");
-    evoluirReticulado(mat, tam);
-    imprimeReticulado(mat, tam);
-    desalocarReticulado(&mat, tam);
+    scanf("%d", &Tamanho);
+    Matriz = alocarReticulado(Tamanho);
+    LeituraReticulado(Matriz, Tamanho);
+    Matriz = evoluirReticulado(Matriz, Tamanho);
+    imprimeReticulado(Matriz, Tamanho);
+    desalocarReticulado(&Matriz, Tamanho);
     
     return 0;
 }

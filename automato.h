@@ -7,9 +7,11 @@ void desalocarReticulado(int***, int);
 
 void LeituraReticulado(int**, int);
 
+int **copiaMatriz(int **matrizUm, int **matrizDois, int tamanho);
+
 void imprimeReticulado(int**, int);
 
-void evoluirReticulado(int**, int);
+int **evoluirReticulado(int**, int);
 
 
 #endif
